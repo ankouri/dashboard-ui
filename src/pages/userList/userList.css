@@ -1,0 +1,20 @@
+.userlist{
+    width: 100% !important;
+    position:relative !important;
+}
+.userdatagrid{
+    margin-top:20px !important;
+    width:98%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.editFrame-isOpen{
+    display:block;
+    transition:display .2s ease-in !important; 
+}
+.editFrame-isClose{
+    display:none;
+    transition:display .2s ease-in !important; 
+}

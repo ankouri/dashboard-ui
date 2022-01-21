@@ -1,0 +1,18 @@
+.homewrapper{
+    width: 100% !important;
+    position:relative !important;
+    margin-top:64px !important;
+}
+.Closedrightside {
+    width: 95% !important;
+    position: relative !important;
+    height: 100vh !important;
+    overflow-y: scroll !important;
+  }
+
+.Openrightside{
+    width: 88% !important;
+    position: relative !important;
+    height: 100vh !important;
+    overflow-y: scroll !important;
+}

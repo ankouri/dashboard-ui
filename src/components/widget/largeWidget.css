@@ -1,0 +1,17 @@
+.largewidget{
+    padding:20px;
+}
+.tablecell{
+    display: flex !important;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tablecell>div{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.tableitem{
+    font-size: 19px !important;
+    font-family: 'Source Sans Pro' !important;
+    padding:6.5px !important;
+}

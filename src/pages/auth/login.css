@@ -1,0 +1,36 @@
+.loginwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.formwrapper{
+    width:400px;
+    height: 100%;
+    padding:35px !important;
+    min-width: 200px;
+    transition: height .3s ease-in;
+}
+.formcontrol{
+    margin-top:20px !important;
+    margin-bottom:20px !important;
+}
+.btnsubmit{
+    background:#7d3aff !important;
+    color:white !important;
+}
+.navigate{
+    padding:20px;
+    text-align: center;
+}
+.navigate>b{
+    color:#7d3aff !important;
+    cursor: pointer;
+}
+.titlelogin{
+    font-size:22px !important;
+    text-align: center;
+    font-weight: 600 !important;
+    margin-bottom: 20px !important;
+}

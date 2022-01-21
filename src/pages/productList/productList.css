@@ -1,0 +1,12 @@
+.productlist{
+    width: 100% !important;
+    position:relative !important;
+}
+.productdatagrid{
+    margin-top:20px !important;
+    width:98%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

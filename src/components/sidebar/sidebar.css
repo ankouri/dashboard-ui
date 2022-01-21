@@ -1,0 +1,70 @@
+
+.openSidebar{
+    width: 100% !important;
+}
+.closeSidebar{
+    width: 90px !important;
+}
+.hide{
+    margin:4px 14px;
+    transition: margin .2s ease-in !important;
+}
+.block{
+    display: block !important;
+    transition: display .2s ease-in !important;
+}
+.logo>span{
+    font-size: 25px;
+    font-family: 'Source Sans Pro';
+    display: block;
+    font-weight: 900;
+}
+.sidebar{
+    height:calc(100vh - 90px);
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+    margin-top:64px !important;
+    transition: width .2s ease-in !important;
+
+}
+.Openleftside{
+    width:12% !important;
+}
+.Closeleftside{
+    width:5% !important;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+} 
+*{
+    scrollbar-width: thin;
+    scrollbar-color: #b6b4b4;
+}
+
+::-webkit-scrollbar-track {
+    background: #ddd;
+}
+::-webkit-scrollbar-thumb {
+background: #b6b4b4;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
+.listsubheader{
+    font-size: 16px !important;
+    font-family: 'Source Sans Pro' !important;
+}
+.listitemicon{
+    color:#7d3aff !important;
+}
+.listtext > span{
+    font-size: 18px !important;
+    font-family: 'Source Sans Pro' !important;
+    font-weight: 400;
+}

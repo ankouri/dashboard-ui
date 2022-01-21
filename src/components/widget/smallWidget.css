@@ -1,0 +1,25 @@
+.smallwidgetwrapper{
+    padding:20px;
+}
+.cardheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listtitle>span, .listtitle>p,.listbtn{
+    font-family: 'Source Sans Pro' !important;
+    
+}
+.viewall{
+    margin-right:20px;
+    font-size: 18px;
+    cursor: pointer;
+    color:#7d3aff !important;
+}
+
+.listtitle>span{
+    font-size: 19px !important;
+}
+.listtitle>p{
+    font-size: 15px !important;
+}

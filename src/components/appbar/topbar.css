@@ -1,0 +1,38 @@
+.topbar {
+  width: 100% !important;
+}
+
+.openBtn {
+  transform: rotate(0deg);
+  transition: transform 180ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+}
+.closeBtn {
+  transform: rotate(-180deg);
+  transition: transform 195ms cubic-bezier(0.4, 0, 0.6, 1) 0ms !important;
+}
+.topbarRight {
+  justify-self: space-between;
+}
+.appbar {
+  background: #fff !important;
+  border-bottom: 1px solid #ddd !important;
+  position: absolute !important;
+  width: 100% !important;
+}
+.topbarLogo {
+  font-family: "Source Sans Pro" !important;
+  font-weight: 400 !important;
+  color: rgb(29, 29, 29);
+  margin-left: 8px;
+  flex-grow: 1;
+  cursor: pointer;
+  font-size: 23px;
+  text-decoration: none;
+}
+.topbarButton {
+  color: rgb(29, 29, 29) !important;
+  font-weight: bold !important;
+}
+.RightBtn {
+  margin-left: 5px !important;
+}

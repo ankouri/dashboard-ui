@@ -1,0 +1,11 @@
+.editTextarea{
+    width: 80%;
+    min-height: 20px;
+    max-height: 20px;
+    height: 20px;
+    border: 1px dashed #787474;
+    border-radius: 4px;
+    max-width: 80%;
+    padding: 6px;
+    outline: none;
+}

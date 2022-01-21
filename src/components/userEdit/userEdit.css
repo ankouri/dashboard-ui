@@ -1,0 +1,40 @@
+.edituserwrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.edituseravatar{
+    width:100px !important;
+    height:100px !important;
+}
+.userinfolist{
+    width: 90%;
+}
+.editusercontrols{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.btnsuccess{
+    background: #6ec06e !important;
+    color: white !important;
+    padding: 6px 20px !important;
+    border: 1px solid #95c695 !important;
+}
+.btnerror{
+    background: #e65d5deb !important;
+    color: white !important;
+    padding: 6px 20px !important;
+    border: 1px solid #e65d5d !important;
+}
+.editavatar{
+    position: absolute;
+    top: -30px !important;
+    background: #7d39ff !important;
+    color: white !important;
+    left: 30px !important;
+    padding: 8px !important;
+}

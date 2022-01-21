@@ -1,0 +1,30 @@
+.selectlanguage{
+    width: 100%;
+    background: white !important;
+    position: absolute !important;
+    top: 35px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+.selectwrapper{
+    width:100% !important;
+    position:relative !important;
+}
+.selectlanguage > *{
+    font-family: "Source Sans Pro" !important;
+}
+.selectlanguage:before {
+    top: -8px;
+    left: 82% !important;
+    content: '';
+    z-index: 1;
+    position: absolute;
+    transform: rotate(45deg);
+    border-left: 1px solid #ddd;
+    border-right: 0px solid white;
+    border-top: 1px solid #ddd;
+    border-bottom: 0px solid white;
+    width: 12px;
+    height: 12px;
+    background: white;
+}
